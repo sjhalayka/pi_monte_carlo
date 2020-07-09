@@ -20,7 +20,7 @@ int main(void)
 			within_radius++;
 	}
 
-	cout << 4 * float(within_radius) / float(total) << endl;
+	cout << 4.0f * static_cast<float>(within_radius) / static_cast<float>(total) << endl;
 
 	return 0;
 }
